@@ -5,7 +5,7 @@ from transformers import DistilBertTokenizer, DistilBertForSequenceClassificatio
 import os
 
 # Configuration
-MODEL_PATH = "./tiny_bert_sentiment"
+MODEL_PATH = "../tiny_bert_sentiment"
 
 st.set_page_config(page_title="Custom BERT App", page_icon="🧠")
 
